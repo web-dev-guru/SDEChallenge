@@ -10,6 +10,17 @@ Write an interface for a data structure that can provide the moving average of t
 2. Provide an implementation for the interface
 3. Provide any additional explanation about the interface and implementation in a README file.
 
+/**
+* public Double getAverage(Double element)
+* 
+* This method will accept the double data type input value. 
+* store it into queue structure and add input value with sum value.
+* if total input number > N , then remove the first  value from queue and deduct it from sum value, return sum/N
+* else total input number <N, then return sum/total input number.
+* @param  element  Double data type
+* @return Double data type, average of the last N element,if N > total input element, return sum/total input number
+*/
+
 ## Design Question
 
 Design A Google Analytic like Backend System.
